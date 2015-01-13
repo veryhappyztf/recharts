@@ -5,7 +5,7 @@ configHtml = function(opt, outfile, jsdir, style) {
 	Sys.sleep(0.02)
 
 	if(is.null(jsdir)) {
-		jsdir = 'http://echarts.baidu.com/build/dist'
+		jsdir = 'http://www.zz-themixc.com:800/build/dist'
 	}
 
 	jsdir = gsub('/$', '', jsdir)
